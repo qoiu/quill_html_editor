@@ -1248,6 +1248,7 @@ class ToolBarItem extends StatelessWidget {
         height: iconSize,
         child: Image.asset(
           imagePath,
+          package: 'quill_html_editor',
           color: isActive ? activeIconColor : iconColor,
         ),
       );
