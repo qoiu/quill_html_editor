@@ -1355,7 +1355,7 @@ enum ToolBarStyle {
   editTable("Редактировать таблицу"),
 
   /// [separator] to add divider between toolbar items
-  separator("Разделитель"),
+  separator("Разделитель");
 
   ///font - later releases
 
