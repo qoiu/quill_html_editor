@@ -23,8 +23,6 @@ class CssLoader {
       border-radius: 50%;  
       animation: loader 1s infinite ease-in-out;
     }
-    h1 { font-size: 24px; font-weight: bold; }
-    h2 { font-size: 20px; }
     @keyframes loader {
       0% {
       transform: scale(0);

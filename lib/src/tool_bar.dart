@@ -1271,11 +1271,11 @@ class ToolBarItem extends StatelessWidget {
 
 enum ToolBarStyle {
   ///[bold] sets bold format
-  bold("Bold"),
+  bold("Полужирный"),
 
   /// [italic] sets italic format
 
-  italic("Italic"),
+  italic("Курсив"),
 
   /// [underline] sets underline to text
 
