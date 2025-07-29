@@ -33,12 +33,9 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      android:
-        default_package: quill_html_editor
-      ios:
-        pluginClass: QuillHtmlEditorWeb
       web:
         pluginClass: QuillHtmlEditorWeb
+        fileName: lib/quill_html_editor.dart
 #        default_package: quill_html_editor
   assets:
       - packages/quill_html_editor/assets/camera_roll_icon.png
