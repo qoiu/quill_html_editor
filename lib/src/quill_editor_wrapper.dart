@@ -604,6 +604,8 @@ class QuillHtmlEditorState extends State<QuillHtmlEditor> {
           font-weight: ${StringUtil.getCssFontWeight(widget.hintTextStyle?.fontWeight)};
           
         }
+        h1 { font-size: 24px; font-weight: bold; }
+        h2 { font-size: 20px; }
         .ql-container.ql-snow{
          font-family: "$_fontFamily", sans-serif !important;
         -webkit-user-select: text !important;
