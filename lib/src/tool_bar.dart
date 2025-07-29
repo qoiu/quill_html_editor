@@ -1279,100 +1279,83 @@ enum ToolBarStyle {
 
   /// [underline] sets underline to text
 
-  underline("Underline"),
+  underline("Подчёркнутый"),
 
   /// [strike] makes the selected text strikethrough
 
-  strike("Strikethrough"),
+  strike("Зачёркнутый"),
 
   /// [blockQuote] converts text to quote
-
-  blockQuote("Block Quote"),
+  blockQuote("Цитата"),
 
   /// [codeBlock] makes selected text code block
-
-  codeBlock("Code Block"),
+  codeBlock("Блок кода"),
 
   /// [indentMinus] decreases the indent by given value
-
-  indentMinus("Decrease the indent"),
+  indentMinus("Уменьшить отступ"),
 
   /// [indentAdd] increases the indent by given value
-
-  indentAdd("Increase the indent"),
+  indentAdd("Увеличить отступ"),
 
   /// [directionRtl] sets the direction of text from Right to Left
-
-  directionRtl("Right to Left"),
+  directionRtl("Справа налево"),
 
   /// [directionLtr] sets the direction of text from Left to Right
-
-  directionLtr("Left to Right"),
+  directionLtr("Слева направо"),
 
   /// [headerOne] makes the text H1
-
-  headerOne("Header H1"),
+  headerOne("Заголовок H1"),
 
   /// [headerTwo] makes the text H2
-
-  headerTwo("Header H2"),
+  headerTwo("Заголовок H2"),
 
   /// [color] sets font color
-
-  color("Font color"),
+  color("Цвет текста"),
 
   /// [background] sets background color to text
-
-  background("Background color"),
+  background("Цвет фона"),
 
   /// [align] adds alignment to text, left, right, center, justify
-
-  align("Alignment"),
+  align("Выравнивание"),
 
   /// [listOrdered] adds numbered/alphabets list to the text
-
-  listOrdered("Bullet numbers"),
+  listOrdered("Нумерованный список"),
 
   /// [listBullet] makes text as bullet points
-
-  listBullet("Bullet points"),
+  listBullet("Маркированный список"),
 
   /// [size] sets fontSize of the text
-
-  size("Font Size"),
+  size("Размер шрифта"),
 
   /// [link] sets hyperlink to selected text
-
-  link("Hyperlink"),
+  link("Гиперссылка"),
 
   /// [image] embeds image to the editor
-
-  image("Insert image"),
+  image("Вставить изображение"),
 
   /// [video] embeds Youtube, Vimeo or other network videos to editor
-
-  video("Insert Youtube/Url"),
+  video("Вставить видео"),
 
   /// [clean] clears all formats of editor, (for internal use case)
-  clean("Clears all formats"),
+  clean("Очистить форматирование"),
 
   /// [undo] to undo the editor change
-  undo("Undo"),
+  undo("Отменить"),
 
   /// [redo] to redo the editor change
-  redo("Redo"),
+  redo("Повторить"),
 
   /// [clearHistory] to undo the editor change
-  clearHistory("Clear History"),
+  clearHistory("Очистить историю"),
 
   /// [addTable] to add table to the editor
-  addTable("Add a table"),
+  addTable("Добавить таблицу"),
 
   /// [editTable] to edit rows, columns or delete table
-  editTable("Edit table"),
+  editTable("Редактировать таблицу"),
 
-  ///[separator] to add divider between toolbar items
-  separator("separator");
+  /// [separator] to add divider between toolbar items
+  separator("Разделитель"),
 
   ///font - later releases
 
