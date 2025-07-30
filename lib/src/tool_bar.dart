@@ -1171,9 +1171,10 @@ class ToolBarItem extends StatelessWidget {
         waitDuration: const Duration(milliseconds: 800),
         message: style.name,
         child: InkWell(
-          onTap: onTap,
-          child: Padding(
+          onTap: onTap??(){},
+          child: Container(
             padding: padding,
+            color: Colors.transparent,
             child: SizedBox(child: _getIconByStyle(style)),
           ),
         ));
