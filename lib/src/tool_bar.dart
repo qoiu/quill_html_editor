@@ -568,6 +568,7 @@ class ToolBarState extends State<ToolBar> {
         tempToolBarList.add(Tooltip(
             waitDuration: const Duration(milliseconds: 800),
             message: toolbarItem.style.name,
+            mouseCursor: SystemMouseCursors.click,
             child: Padding(
               padding: _buttonPadding,
               child: SizedBox(
@@ -623,6 +624,7 @@ class ToolBarState extends State<ToolBar> {
         tempToolBarList.add(Tooltip(
             waitDuration: const Duration(milliseconds: 800),
             message: toolbarItem.style.name,
+            mouseCursor: SystemMouseCursors.click,
             child: Padding(
               padding: _buttonPadding,
               child: SizedBox(
